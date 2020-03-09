@@ -32,7 +32,118 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.table,
+.th,
+.td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.th,
+.td {
+  padding: 15px;
+  text-align: left;
+}
+
+.th {
+  text-align: left;
+}
+
+ul {
+  /* position: fixed; */
+  width: -webkit-fill-available;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.topMarg {
+  margin-top: 1rem;
+}
+
+.cartButton {
+  position: absolute;
+  right: 25px;
+}
+
+.marg {
+  text-align: center;
+}
+
+.marg-top {
+  margin-left: 18%;
+  margin-top: 18px;
+}
+
+.card2 {
+  margin-left: 33% !important;
+  text-align: center !important;
+  width: fit-content !important;
+  margin: 20px;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 1%;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-shadow: 0 0 12px rgba(1, 0, 0, 0.4);
+  border-radius: 3px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.tableSpace {
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+  margin-left: 33% !important;
+  position: relative;
+
+
+}
+
+.marg-table {
+  margin-top: 50px;
+  margin-left: 36% !important;
+  margin-bottom: 40px;
+}
+
+.marg-table-inside {
+  margin-left: 31% !important;
+}
+
+.internalSpace {
+  margin-left: 20px;
 }
